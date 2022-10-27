@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+
+    <div class="conteiter">
+        <h1 class="swap">
+            <p class="activetext"> HOMEPAGE</p>
+            <a href="../index/onlytoday.html" class="to">
+                <p>ONLY TODAY</p>
+            </a>
+        </h1>
+
+        <h2>HI, YOU HAVE <span class="ondone"></span> UNDONE TASKS</h2>
+
+        <h3>ALL TODOS</h1>
+
+            <div class="sortCont">
+                <h1 class="activetext">FOR TODAY - <span class="TodayCount"></span></h1>
+                <div class="Today_create create">
+
+                </div>
+            </div>
+    </div>
+    <div class="sortCont">
+        <h1>TOMORROW - <span class="TomorrowCount"></span></h1>
+        <div class="Tomorrow_create create">
+
+        </div>
+    </div>
+    <div class="sortCont">
+        <h1 class="activetext">LATER -<span class="LaterCount"></span></h1>
+        <div class="Later_create create">
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type='module' src="../script/homepage.js"></script>
+</body>
+
+</html>
